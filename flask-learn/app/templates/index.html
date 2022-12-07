@@ -1,0 +1,72 @@
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>Фаммлия:</td>
+			<td>Имя:</td>
+			<td>Отчество:</td>
+		</tr>
+		<tr>
+			<td><input type="text" name="name" /></td>
+			<td><input type="text" /></td>
+			<td><input type="text" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>дата рождения:</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>число</td>
+			<td>месяц</td>
+			<td>год</td>
+		</tr>
+		<tr>
+			<td><input type="text" /></td>
+			<td><input type="text" /></td>
+			<td><input type="text" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p><input type="checkbox" /> готов к переезду&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="\" type="checkbox" />ищу удаленную работу</p>
+
+<p><input type="checkbox" /> не готов к переезду</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>телефон</td>
+			<td colspan="2" rowspan="1">звонить с/до:</td>
+		</tr>
+		<tr>
+			<td><input type="text" /></td>
+			<td><input type="text" /></td>
+			<td><input type="text" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>электронная почта:</p>
+
+<p><input type="text" /></p>
+
+<p>какую должность вы хотите занимать?</p>
+
+<p><input type="text" /></p>
+
+<p>какой доход вы хотите получать?</p>
+
+<p><input type="text" /></p>
+
+<p>образование:</p>
+
+<p><select><option selected="selected" value="">незаконченное среднее</option><option selected="selected" value="">среднее</option><option selected="selected" value="">незаконченное высшее</option><option selected="selected" value="">высшое</option></select></p>
+
+<p>немного о себе:</p>
+
+<p><input maxlength="500" size="80"  width="90" type="text" /></p>
+ <td><a href="{{ url_for('logout') }}">logout</a></td>
+ <td><a href="{{ url_for('download') }}">download</a></td>
+<td><input type="submit" value="Сохранить"></td>
